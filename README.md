@@ -3,13 +3,10 @@
 前端源码: [https://github.com/night-233/rent-house-admin](https://github.com/night-233/rent-house-admin)
 后端源码: [https://github.com/harry-xqb/rent-house](https://github.com/harry-xqb/rent-house)
 
-项目致力于打造一个完整的租房系统，采用现阶段流行技术实现。
-
 ## **项目介绍**
 rent-house 项目是一套模仿自如的租房系统，基于SpringBoot+Elasticsearch实现，采用Docker容器化部署。系统主要包含租房首页、房源搜索、房源展示、地图找房、房源周边检索、收藏栏、看房预约、用户中心、发布管理、账号管理等模块。
 
 ## 在线演示
-(由于个人经费原因，在线网址已经停机，麻烦大家使用docker方式进行本地部署, 见下文)
 租房网地址:  [http://house.touchfish.top](http://house.touchfish.top)  账号: 17811111111 密码: 123
 后端swiger接口地址:  [http://house.frp.touchfish.top/swagger-ui.html](http://house.frp.touchfish.top/swagger-ui.html)  账号: admin 密码: 123
 
@@ -71,10 +68,6 @@ rent-house 项目是一套模仿自如的租房系统，基于SpringBoot+Elastic
 
 说明: 拉取镜像的过程可能比较慢，如果网络环境不好，不建议使用该方式。 另外不了解docker的同学需要先学习下Docker： [Docker官网](https://www.docker.com/)
 
-#### 前端开发学习
-
-对于想要学习前端的小伙伴， 只需以下几步即可启动前端项目
-
 1. clone前端源码([前端源码]([https://github.com/night-233/rent-house-admin](https://github.com/night-233/rent-house-admin)))
 2. 执行 yarn install
 3. 执行 yarn start 
@@ -98,16 +91,6 @@ kafka: 需要安装并配置application-dev.yml中 kafka相关信息
 zookeeper: kafka注册中心
 
 kibana:  方便管理与查看elasticsearch（可以不安装）
-
-#### 技术问答
-
-## <img src="http://qiniu.touchfish.top/qrcode.jpg" alt="qrcode"  width="200" height="200"/>
-
-
-
-##  天涯何处无芳草，给颗星星好不好┭┮﹏┭┮
-
-
 
 ## 项目界面展示
 
